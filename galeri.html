@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery">
+        <h1>Galeria de imagens</h1>
+        <div class="image-container">
+            <img id="image" src=" " alt="Imagem">
+            <p id="description"></p>
+        </div>
+        <div class="form-container">
+            <label for="imageUrl">URL da imagem</label>
+            <input type="text" id="imageUrl" placeholder="Insira a URL da imagem">
+           
+            <label for="imagemDescription">Descricao:</label>
+            <input type="text" id="imageDescription" placeholder="Insira a descrição da imagem">
+            <button onclick="addImage()">Adicionar Imagem </button>
+        </div>
+        <div class="buttons">
+            <button onclick="previousImage()">&#8249;</button>
+            <button onclick="nextImage()">&#8250; </button>
+        </div>
+    </div>
+    <script src="scriptgalery.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+font-family: Arial,sans-serif;
+background-color: rgb(49, 107, 158);
+text-align: center;
+
+}
+.gallery {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0,0,0.2);
+    color: rgb(58, 52, 52);
+}
+.image-container{
+    position: relative;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(111, 87, 176, 0.2);
+}
+.description{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.form-container{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+    .form-container label,
+    .form-container input{
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+
+    }
+        .form-container input {
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        } 
+        button{
+            display: inline-block;
+            background-color: darksalmon;
+            color: #ccc;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px ;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .buttons{
+            margin-top: 20px;
+
+        }
+     .buttons button {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        background-color: darkorange;
+        color: #ffffff;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 12px;
+     }
